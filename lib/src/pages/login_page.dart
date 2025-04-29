@@ -1,5 +1,5 @@
-import 'package:app_fluxolivre/src/widget/input_login_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:app_fluxolivre/src/widget/input_login_widget.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -30,13 +30,13 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 30),
               InputLoginWidget(
                 icon: Icons.person_2_outlined,
-                hint: 'Usuario',
+                hint: 'Usuário',
                 obscure: false,
               ),
               const SizedBox(height: 16),
               InputLoginWidget(
                 icon: Icons.lock_outline,
-                hint: 'Password',
+                hint: 'Senha',
                 obscure: true,
               ),
               const SizedBox(height: 30),

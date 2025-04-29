@@ -1,5 +1,5 @@
-import 'package:app_fluxolivre/src/pages/home_page.dart';
 import 'package:app_fluxolivre/src/pages/login_page.dart';
+import 'package:app_fluxolivre/src/pages/home_page.dart';
 import 'package:app_fluxolivre/src/pages/new_usuario.dart';
 import 'package:flutter/material.dart';
 
